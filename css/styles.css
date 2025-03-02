@@ -1,0 +1,211 @@
+
+.ex div button{
+    border: none;
+    background-color: #bbb;
+    border-radius: 3px;
+}
+.extb div button{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+#star{
+    width: 35px;
+    background-color: aqua;
+    
+}
+#star1{
+    width: 35px;
+    background-color: aqua;
+    
+}
+.togg button{
+    margin-top: -30px;
+    margin-left: 20px;
+    padding-bottom: 8px;
+
+
+    /* ms-3  pb-2 */
+}
+.textp{
+    color: aqua;
+}
+.name{
+    padding: 50px 20px 00px 50px;
+    /* margin-top: 20px; */
+    margin-left: 60px ;
+
+
+    /* ps-5  ms-5 mt-5 */
+}
+.name h1{
+    font-size: 65px; 
+    color: aqua;
+}
+.name h5{
+    font-size: 25px; 
+    padding-bottom: 30px;
+}
+.name p{
+    padding-right:40px ;
+    font-size: 15px;
+}
+.desicon{
+    display: flex; 
+    justify-content: start; 
+    gap: 30px;
+}
+.gius{
+    padding-top: 70px;
+    padding-right:  150px;
+    
+}
+.gius img{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+.port{
+    font-size: 45px;
+    padding-bottom: 20px;
+    /* fs-1 fw-bold pb-3 */
+}
+.myedu{
+    padding-right: 100px; padding-top: 150px;
+}
+.myedu div{
+    margin-left: -100px;
+}
+.myedu1 h1{
+    font-size: 60px;
+
+}
+
+.Contact div{
+    display: block; justify-content: center; width: 60%; margin: auto;
+
+}
+.cont{
+    background-color: black;  
+     box-shadow: 7px 7px 5px rgb(79, 85, 87);
+}
+.con div{
+    
+    
+}
+.name1{
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+
+    
+}
+.mess{
+    /* p-5 mb-2 me-5 */
+    margin-bottom: 10px;
+    /* margin-left: ; */
+    padding: 50px;
+    width: 100%;
+
+}
+.smessage{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+
+    
+
+}
+
+
+@media screen and (max-width:576px) {
+    .togg ul li a{
+        text-align: center;
+    }
+    .togg button {
+         margin: 10px 0px 0px 140px; 
+
+    }
+    .name{
+        padding: 5px;
+    margin-top: 10px;
+    margin-left: 0px ;
+    }
+    .name h1{
+        font-size: 40px;
+        
+    }
+    .name h5{
+        font-size: 20px;
+        
+    }
+    .name p{
+        padding-right:5px ;
+        font-size: 15px;
+    }
+    .desicon{
+        justify-content: center;
+    }
+    .gius img{
+        
+        height:400px;
+        width: 100%;
+        margin-left: 75px;
+        
+    }
+    .port{
+        
+    }
+    .myedu{
+         padding-top: 15px;
+         margin-left: 100px;
+         /* text-align: center; */
+
+        
+    }
+    .myedu1 h1{
+        font-size: 40px;
+
+    }
+    .myedu1 h3{
+        font-size: 20px;
+
+    }
+    .name1{
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 150%;
+        margin-left: -30px;
+    
+        
+    }
+    .mess{
+        /* p-5 mb-2 me-5 */
+        margin-bottom: 10px;
+        /* margin-left: ; */
+        padding: 50px;
+        width: 200%;
+        margin-left: -55px;
+    
+    }
+    .smessage{
+        width: 200%;
+        margin-left: -55px;
+        
+    }
+
+
+    .row{
+        flex-direction: column;
+    }
+    .body{
+        
+    }
+    
+
+    
+}
+
