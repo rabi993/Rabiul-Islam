@@ -20,6 +20,12 @@
     background-color: aqua;
     
 }
+.hovertextcolor{
+    color: aqua;
+}
+.hovertextcolor:hover{
+    color: rgb(255, 255, 255);
+}
 .togg button{
     margin-top: -30px;
     margin-left: 20px;
@@ -166,6 +172,9 @@
         width: 50%;
         margin: auto;
         padding-left: 45px;
+        
+    }
+    .midd div{
         
     }
     .myedu{
